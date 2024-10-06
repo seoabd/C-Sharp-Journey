@@ -15,13 +15,17 @@ namespace ConsoleInputOutput
             
             Console.Write("What is your name: ");
             string name = Console.ReadLine();
-            
+
             //Console.WriteLine(name);
             
             Console.WriteLine(); // if we want a gap between two questions!
             
             Console.Write("What is your age: ");
             string age = Console.ReadLine();
+            
+              // if we want to convert the value to int!
+             // string ageInput = Console.Readline();
+             // int age = Convert.ToInt32(ageInput);
             
             //Console.WriteLine(age);
 
