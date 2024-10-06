@@ -22,7 +22,9 @@ namespace ConsoleInputOutput
 
             Console.Write("What is your age: ");
             string inputAge = Console.ReadLine();
-            int age = Convert.ToInt32(inputAge);
+            int age = Convert.ToInt32(inputAge); 
+            
+            // It is crusial to change to int because if the input is number and space it wont show us any value. Converting it to int is significally important!
 
             //Console.WriteLine(age);
 
