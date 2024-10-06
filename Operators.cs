@@ -24,6 +24,10 @@ namespace Operators
             age--;   // age = age - 1;    or age -= 1;
             Console.WriteLine(age);
 
+            // it tells to do the action firs than return back the I which gonna be 1
+            int i = 0;
+            Console.WriteLine(++i); 
+
 
             string name = "Aba";
             name += " is programming";
