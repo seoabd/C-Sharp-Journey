@@ -23,12 +23,19 @@ namespace Operators
             
             age--;   // age = age - 1;    or age -= 1;
             Console.WriteLine(age);
-
+   
             // it tells to do the action firs than return back the I which gonna be 1
             int i = 0;
             Console.WriteLine(++i); 
 
+            // Remainder % 
 
+            int firstNumber = 14;
+            int secondNumber = 4;
+            Console.WriteLine(firstNumber % secondNumber); // 14 / 4 = 3r2    = 3 x 4 = 12, 2 left over to get to 14 so it will print 2  
+
+            
+        
             string name = "Aba";
             name += " is programming";
             Console.WriteLine(name);   // the result gonna be "Aba is programming"
