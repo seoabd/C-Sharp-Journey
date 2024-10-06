@@ -32,7 +32,7 @@ namespace Operators
 
             int firstNumber = 14;
             int secondNumber = 4;
-            Console.WriteLine(firstNumber % secondNumber); // 14 / 4 = 3r2    = 3 x 4 = 12, 2 left over to get to 14 so it will print 2  
+            Console.WriteLine(firstNumber % secondNumber); // 14 / 4 = 3r2    = 3 x 4 = 12, 2 left over to get to 14 so it will print 2 (the value is even)
 
             
         
