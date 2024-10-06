@@ -10,11 +10,11 @@ namespace Operators
     {
         static void Main(string[] args)
         {
-            int age = 23;
-            age++;
+            int age = 23; 
+            age++;  // age = age + 1;
             
             Console.WriteLine(age);
-            age--;
+            age--;   // age = age - 1;
             Console.WriteLine(age);
             
 
