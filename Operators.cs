@@ -12,7 +12,7 @@ namespace Operators
         {
             int age = 23; 
             age++;  // age = age + 1;     or  age += 1;
-            
+                    // age *= 10 ;        or  age /= 10;
             Console.WriteLine(age);
             age--;   // age = age - 1;    or age -= 1;
             Console.WriteLine(age);
