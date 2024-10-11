@@ -13,7 +13,7 @@ namespace ConditionalOperator
         static void Main(string[] args)
         {
 
-            double value = 1000D / 12.34D;
+            double value = 1000D / 12.34D;       //we place the D so it doesn´t convert the value to int!
 
             Console.WriteLine(value); // will show the whole numeric format!
             Console.WriteLine(string.Format("{0:0.00}", value));
