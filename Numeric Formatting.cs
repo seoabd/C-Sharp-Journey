@@ -18,6 +18,16 @@ namespace ConditionalOperator
             Console.WriteLine(value); // will show the whole numeric format!
             Console.WriteLine(string.Format("{0:0.00}", value));
                                                 //after the first number it will show 2 numeric values rounded
+           
+            
+            // to Print out the currency type
+            Console.WriteLine(value);
+            Console.WriteLine(string.Format("The currency result is: eu{0:0.00}", value));
+            Console.WriteLine(value.ToString("C"));
+            
+            Console.WriteLine(value.ToString("C", CultureInfo.CurrentCulture));
+            
+            
             Console.ReadLine();
         }
     }
