@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EmpyString
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();  // what the user types!
+
+
+            if (name != string.Empty) // if your name is not empty!
+            {
+                Console.Write($"Your name is: {name}");
+            } 
+            else
+            {
+                Console.Write("Your name is Empty");
+            }
+
+
+            Console.ReadLine();
+        }
+    }
+}
