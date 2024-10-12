@@ -15,7 +15,7 @@ namespace EmptyString
             string name = Console.ReadLine();  // what the user types!
 
 
-            if (name != string.Empty) // if your name is not empty!
+            if (name != string.Empty) // if your name is not empty! "" can be also used for empty
             {
                 Console.Write($"Your name is: {name}");
             } 
