@@ -19,7 +19,7 @@ namespace arrays
 
 
             /*Console.Write("Please enter your number: ");                    // We can do this with a for loop like below!
-            numbers[0] = Convert.ToInt32(Console.ReadLine());
+            numbers[0] = Convert.ToInt32(Console.ReadLine());                      
 
             Console.Write("Please enter your number: ");
             numbers[1] = Convert.ToInt32(Console.ReadLine());
@@ -35,7 +35,7 @@ namespace arrays
             
             for (int i = 0; i < numbers.Length; i++) //0-3 / 0 0 = 0+1
             {
-                Console.Write("Please enter your number: ");                          // We can do this with a for loop like below!
+                Console.Write("Please enter your number: ");                          // We can do this with a for loop like below! So here is to store the numbers!
                 numbers[i] = Convert.ToInt32(Console.ReadLine());
             }
 
@@ -43,7 +43,7 @@ namespace arrays
 
             for (int i = 0; i < numbers.Length; i++)
             {
-                Console.Write($"{numbers[i]} ");
+                Console.Write($"{numbers[i]} ");        // and to print the numbers stored from the userinput
             }
             Console.ReadLine(); 
 
