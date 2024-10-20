@@ -10,8 +10,7 @@ using System.Diagnostics.CodeAnalysis;
 
 
 
-namespace arrayclearing
-
+namespace arrayIndexOF
 {
     class Program
     {
@@ -32,7 +31,7 @@ namespace arrayclearing
 
             if (position > -1) // 0 ->
             {
-                Console.WriteLine($"Your number {search} has been found at {position +1}");
+                Console.WriteLine($"Your number {search} has been found at {position +1}"); // position +1 while the position starts at 0. so if u search 85 it will show programmatically 0 but humans like 1
             }
             else
             {
