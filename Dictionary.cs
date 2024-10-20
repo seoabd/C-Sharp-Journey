@@ -50,7 +50,7 @@ namespace Dictionary
             
             if (teachers.TryGetValue("Math", out var teacher)) // you can run the code as out string teacher
             {
-                Console.WriteLine(teacher);
+                Console.WriteLine(teacher);  // when u have output as string teacher or var teacher
             }
 
 
